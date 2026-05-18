@@ -3,6 +3,8 @@ Model routing agent for Claude Code. Let Haiku decide whether to bring in Sonnet
 
 Maximize efficiency and cut token costs _natively_ within **Claude Code** and the official **Anthropic VS Code Extension**. This repository provides the configuration and templates required to orchestrate a seamless, multi-tier agentic workflow.
 
+> NOTE: This setup works nicely with [superpowers](https://github.com/obra/superpowers), which is an awesome agentic skills framework providing a rigorous methodology for software development, but which does not try to switch models at all.
+
 ### Overview
 By utilizing **Claude Haiku** (with Thinking enabled) as cheap entry point router. It evaluates each of your prompts and dispatches them to the optimal model.
 - **Haiku:** Handles fast, isolated, single-file edits.
